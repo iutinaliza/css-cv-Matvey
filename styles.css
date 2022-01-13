@@ -1,0 +1,121 @@
+body {
+    background-color: rgb(15, 15, 15);
+    color: #e7e7e7;
+
+    font-size: 16px;
+    font-weight: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.list{
+    padding: 0 20px;
+    /* list-style: none; */
+}
+
+.list li{
+    color: #e4e4e4;
+    margin-bottom: 10px;
+}
+
+.avatar{
+    width: 200px;
+    border-radius: 25px;
+}
+
+.info{
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.info p {
+    color: #b6b6b6;
+    margin: 0;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.info img{
+    opacity: 0.8;
+}
+
+.conteiner{
+    max-width: 600px;
+    margin: auto;
+}
+
+.bg-black{
+    background: black;
+}
+
+.bg-grey{
+    background: grey;
+}
+
+.bg-silver{
+    background: silver;
+    color: black;
+}
+
+.card{
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.table{
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(2) {
+    color: brown;
+}
+
+.form-group label{
+    display: block;
+    font-size: 14px;
+    color: crimson;
+}
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: red;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.row{
+    display: flex;
+    margin-bottom: 0;
+}
+
+.row> .form-group{
+    width: 50%;
+}
+
+.row > .form-group:first-child{
+    margin-right: 20px;
+}
+
+.btn{
+    background: black;
+    padding: 15px 20px;
+    color: white;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover{
+    opacity: 0.9;
+}
+
